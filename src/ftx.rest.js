@@ -50,3 +50,5 @@ const ftxRequest = (path, method = 'GET', data) => {
 
     return fetch();
 };
+
+export const getAccountInfo = () => ftxRequest('/account');
