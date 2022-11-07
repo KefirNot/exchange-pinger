@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-// import { getAccountInfo } from './ftx.rest';
 import { useRef, useState } from 'react';
 import { getAccountInfo } from './binance.rest';
 
